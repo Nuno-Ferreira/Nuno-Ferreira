@@ -18,6 +18,6 @@ while led<60: #to reverse chaneg it to 'led>=0'
     leds[led] = (0,255,0)
     time.sleep(1)
     client.put_pixels(leds)
-    led = led + 1
+    led = led + 1 #'-1' to reverse the order
 
 
