@@ -14,5 +14,12 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-I'm currently working on a python project to make some animations and this will be my guide and thoughts/to-do lists!
+This will be where I post projects that I am currently working on, either university ones or subjects that I am learning on my own time.
+Some of subjects that I may include here are: web development, game development, python and just programming in general.
+
+11/01/2021:
+Currently working on a python project to make some animations and this will be my guide and thoughts/to-do lists!
+
+Just started learning how to work with Unity and I will be indulging in my first learning project.
+
 Thank you very much and hope you enjoy!
