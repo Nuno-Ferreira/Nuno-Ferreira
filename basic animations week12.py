@@ -15,7 +15,7 @@ for led in range(len(leds)): #picks outs the leds
 
 led = 0 #to reverse it change to 59
 while led<60: #to reverse chaneg it to 'led>=0'
-    leds[led] = (0,255,0)
+    leds[led] = (0,255,0) # green
     time.sleep(1)
     client.put_pixels(leds)
     led = led + 1 #'-1' to reverse the order
