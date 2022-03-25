@@ -15,7 +15,7 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 This will be where I post projects that I am currently working on, either university ones or subjects that I am learning on my own time.
-Some of subjects that I may include here are: web development, game development, python and just programming in general.
+Some of subjects that I may include here are: web development, game development, python, ethical hacking and just programming in general.
 
 Just started learning how to work with Unity and I will be indulging in my first learning project.
 
