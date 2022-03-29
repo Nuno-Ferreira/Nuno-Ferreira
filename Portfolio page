@@ -1,0 +1,74 @@
+<nav id="navbar" class="nav">
+  <ul class="nav-list">
+    <li>
+      <a href="#about-section">Description</a>
+    </li>
+    <li>
+      <a href="#projects-section">Projects</a>
+    </li>
+    <li>
+      <a href="#contact-section">Contact</a>
+    </li>
+  </ul>
+</nav>
+
+<!--End nav bar-->
+
+<!--Start Description section-->
+
+<section id="about-section" class="about-section">
+  <h1>Hello, I'm Nuno</h1>
+  <p>I'm a Robotics student</p>
+</section>
+
+<!--End Description section-->
+
+<!--Start projects section-->
+
+<section id="projects" class="projects-section">
+  <h2 class="projects-section-header">These are my projects that I have done until now</h2>
+  <div class="projects-grid">
+    <a
+      href="<!--add link to project-->"
+      target="_blank"
+      class="project project-tile">
+      <img
+        class="project-image"
+        src="<!--add image link-->"
+        alt="project"/>
+      <p class="project-title">
+        <span class="code"></span>
+        Tribute page
+        <span class="code"></span>
+      </p>
+    </a>
+    <a
+      href="<!--add 2 project link-->"
+      target="_blank"
+      class="project project-tile"
+    >
+      <img
+        class="project-image"
+        src="<!--add image link-->"
+        alt="Second project"
+        />
+      <p class="project-title">
+        <span class="code"></span>
+        Second Project
+        <span class="code"></span>
+      </p>
+    </a>
+    <a
+      href="<!--add 3 project link-->"
+      target="_blank"
+      class="project project-title"
+    >
+      <img src="<!--add image link-->" alt="Third project" class="project-image"/>
+      <p class="project-title">
+        <span class="code"></span>
+        Third Project
+        <span class="code"></span>
+      </p>
+    </a>
+  </div>
+</section>
