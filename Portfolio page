@@ -71,4 +71,44 @@
       </p>
     </a>
   </div>
+
+  <a href="<!--add link to all my projects-->"
+    class="btn btn-show-all"
+    target="_blank"
+    >Show all <i class="fas fa-chrevon-right"></i>
+  </a>
 </section>
+
+<!--End Projects section-->
+
+<!--Start contact section-->
+
+<section id="contact" class="contact-section">
+  <div class="contact-section-header">
+    <h2>Need help with anything?</h2>
+    <p>Let me know</p>
+  </div>
+  <div class="contact-links">
+    <a href="<!--add linkedin link-->"
+      target="_blank"
+      class="btn contact-details"><i class="fab fa-linkedin"></i>Facebook</a>
+    <a href="#"></a>
+  </div>
+</section>
+
+<!--End contact section-->
+
+<!--Start footer section-->
+
+<footer>
+  <p>
+    Hope you like it!
+  </p>
+  <p>
+    &copy; Created by
+    <a href="<!--add link of this website-->" target="_blank">
+    Nuno Ferreira</a>
+  </p>
+</footer>
+
+<!--End footer section-->
