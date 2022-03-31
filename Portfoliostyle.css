@@ -1,3 +1,21 @@
-html {
+/* custom variables for the main code*/
+:root {
+  --main-white: ;
+  --main-red: ;
+  --main-blue: ;
+  --main-gray: ;
+}
 
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  scroll-behaviour: smooth;
+}
+
+body {
+  font-family:
+  font-size:
+  font-weight:
+  line-height:
+  color:
 }
