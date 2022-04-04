@@ -28,9 +28,10 @@ h1 {
 }
 
 p {
-  font-family:cursive;
-  font-weight: 500;
+  font-family: monospace;
+  font-weight: 1000;
   text-align: center;
+  color: var(--main-red);
 }
 
 a {
@@ -38,4 +39,31 @@ a {
   font-weight: 700;
   text-align: center;
   color: var(--main-blue);
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: var(--main-gray);
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+}
+
+.nav-list {
+  display: flex;
+  margin-right: 2rem;
+}
+
+.about-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:  center;
+  width: 100%;
+  height: auto;
+  background-color: var(--main-black);
+  background-image: linear-gradient(62deg, #70818B 0%, #0C1824 100%);
 }
