@@ -1,9 +1,10 @@
 /* custom variables for the main code*/
 :root {
-  --main-white: ;
-  --main-red: ;
-  --main-blue: ;
-  --main-gray: ;
+  --main-white: #F0F0F0;
+  --main-red: #9C2E1F;
+  --main-blue: #334A5A;
+  --main-gray: #70818B;
+  --main-black: #0C1824;
 }
 
 html {
@@ -18,4 +19,23 @@ body {
   font-weight:
   line-height:
   color:
+}
+
+h1 {
+  font-family: cursive;
+  font-weight: 500;
+  text-align: center;
+}
+
+p {
+  font-family:cursive;
+  font-weight: 500;
+  text-align: center;
+}
+
+a {
+  font-family: sans-serif;
+  font-weight: 700;
+  text-align: center;
+  color: var(--main-blue);
 }
