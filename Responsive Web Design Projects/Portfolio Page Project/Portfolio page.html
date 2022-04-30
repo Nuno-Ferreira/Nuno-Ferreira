@@ -11,7 +11,7 @@
 <nav id="navbar" class="nav">
   <ul class="nav-list">
     <li>
-      <a href="#about-section">Description</a>
+      <a href="#home-section">Home</a>
     </li>
     <li>
       <a href="#projects-section">Projects</a>
@@ -26,7 +26,7 @@
 
 <!--Start Description section-->
 
-<section id="about-section" class="about-section">
+<section id="home-section" class="home-section">
   <h1>Hello, I'm Nuno</h1>
   <p>I'm a Robotics student. I am currently delving into Front-end development and this is my portfolio webpage where I will be adding my projects to show the world which will also be available in GitHub.</p>
 </section>
@@ -97,9 +97,18 @@
 <!--Start feedback section-->
 
 <section id="feedback-section" class="feedback-section">
-  <div class="feeback-section-header">
-    <h2>Feedback</h2>
+    <h2 class="feedback-section-header">Feedback</h2>
+  <div class="feedback-section-input">
+    <p>Did you like this website?</p>
+    <label>
+    <input type="checkbox" name="" value="">
+    Yes</label>
+    <label>
+    <input type="checkbox" name="" value="">
+    No</label>
     <p>Did you see anything weird? Did you see something you like? Give me some feedback so I can improve this website or to know what I'm doing correctly!</p>
+    <input type="text" name="feedback" value="" id="feedback" class="feedback-control" placeholder="Give me any feedback">
+    <button type="submit" id="submit" class="submit-button">Submit</button>
   </div>
 </section>
 
