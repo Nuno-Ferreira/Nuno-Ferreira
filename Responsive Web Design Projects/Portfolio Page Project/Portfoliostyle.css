@@ -1,10 +1,10 @@
 /* custom variables for the main code*/
 :root {
   --main-white: #F0F0F0;
-  --main-red: #9C2E1F;
-  --main-blue: #334A5A;
-  --main-gray: #70818B;
-  --main-black: #0C1824;
+  --main-red: #E3371E;
+  --main-blue: #103778;
+  --main-gray: #0593A2;
+  --main-black: #151F30;
 }
 
 * {
@@ -107,7 +107,7 @@ img {
   top: 0;
   left: 0;
   width: 100%;
-  background: var(--main-red);
+  background: var(--main-black);
   box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
   z-index: 10;
 }
@@ -116,7 +116,12 @@ img {
   display: flex;
   margin-right: 2rem;
 }
-
+/*
+.nav a:active {
+  background-color: #2196F3;
+  color: white;
+}
+*/
 @media (max-width: 28.75em) {
   .nav {
     justify-content: center;
