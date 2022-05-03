@@ -117,14 +117,14 @@ img {
   margin-right: 2rem;
 }
 
-.logo-image {
+#logo-image {
   display: flex;
   justify-content: flex-start;
-  width: ;
-  height: ;
+  width: auto;
+  height: auto;
 }
 
-.nav-image {
+#nav-image {
   object-fit: fill;
 }
 
