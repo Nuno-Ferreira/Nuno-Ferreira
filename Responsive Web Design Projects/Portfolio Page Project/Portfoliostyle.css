@@ -116,6 +116,18 @@ img {
   display: flex;
   margin-right: 2rem;
 }
+
+.logo-image {
+  display: flex;
+  justify-content: flex-start;
+  width: ;
+  height: ;
+}
+
+.nav-image {
+  object-fit: fill;
+}
+
 /*
 .nav a:active {
   background-color: #2196F3;
