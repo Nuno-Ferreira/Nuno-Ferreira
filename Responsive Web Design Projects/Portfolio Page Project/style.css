@@ -93,21 +93,21 @@ a {
   color: var(--main-white);
 }
 
-img {
+/*img {
   display: block;
   width: 100%;
-}
+}*/
 
 /* nav bar at the top*/
 
-.header {
+/*header {
   display: flex;
   position: fixed;
   background: var(--main-black);
   width: 100%;
-}
+}*/
 
-.header > nav {
+header {
   display: flex;
   justify-content: flex-end;
   position: fixed;
@@ -123,13 +123,6 @@ img {
   display: flex;
   align-items: center;
   margin-right: 2rem;
-}
-
-.logo-image {
-  display: flex;
-  justify-content: flex-start;
-  width: auto;
-  height: auto;
 }
 
 .logo-image > img {
