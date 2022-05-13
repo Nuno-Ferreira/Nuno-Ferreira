@@ -2,7 +2,6 @@
 :root {
   --main-white: #F0F0F0;
   --main-red: #E3371E;
-  --main-blue: #103778;
   --main-gray: #166273;
   --main-black: #151F30;
 }
@@ -100,7 +99,15 @@ img {
 }
 
 /* nav bar at the top*/
-.nav {
+
+.header {
+  display: flex;
+  position: fixed;
+  background: var(--main-black);
+  width: 100%;
+}
+
+.header > nav {
   display: flex;
   justify-content: flex-end;
   position: fixed;
