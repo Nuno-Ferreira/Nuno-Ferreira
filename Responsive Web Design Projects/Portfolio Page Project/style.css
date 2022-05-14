@@ -2,7 +2,6 @@
 :root {
   --main-white: #F0F0F0;
   --main-red: #E3371E;
-  --main-blue: #103778;
   --main-gray: #166273;
   --main-black: #151F30;
 }
@@ -94,15 +93,16 @@ a {
   color: var(--main-white);
 }
 
-img {
+/*img {
   display: block;
   width: 100%;
-}
+}*/
 
 /* nav bar at the top*/
-.nav {
+
+header {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   position: fixed;
   top: 0;
   left: 0;
@@ -112,6 +112,13 @@ img {
   z-index: 10;
 }
 
+.logo {
+  display: block;
+  max-width: 100%;
+  width: 75px;
+  object-fit: contain;
+}
+
 .nav-list {
   display: flex;
   align-items: center;
@@ -119,20 +126,10 @@ img {
 }
 
 .logo-image {
-  display: flex;
-  justify-content: flex-start;
-  width: auto;
-  height: auto;
-}
+  display: block;
+  max-width: 100%;
+  width: 75px;
 
-.logo-image > img {
-  height: 75%;
-  width: 75%;
-  display: flex;
-  justify-items: flex-start;
-  max-width: 300px;
-  max-height: 300px;
-  align-items: flex-start;
 }
 /*
 .nav a:active {
