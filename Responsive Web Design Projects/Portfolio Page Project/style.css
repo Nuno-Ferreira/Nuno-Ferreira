@@ -100,16 +100,9 @@ a {
 
 /* nav bar at the top*/
 
-/*header {
-  display: flex;
-  position: fixed;
-  background: var(--main-black);
-  width: 100%;
-}*/
-
 header {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   position: fixed;
   top: 0;
   left: 0;
@@ -119,20 +112,24 @@ header {
   z-index: 10;
 }
 
+.logo {
+  display: block;
+  max-width: 100%;
+  width: 75px;
+  object-fit: contain;
+}
+
 .nav-list {
   display: flex;
   align-items: center;
   margin-right: 2rem;
 }
 
-.logo-image > img {
-  height: 75%;
-  width: 75%;
-  display: flex;
-  justify-items: flex-start;
-  max-width: 300px;
-  max-height: 300px;
-  align-items: flex-start;
+.logo-image {
+  display: block;
+  max-width: 100%;
+  width: 75px;
+
 }
 /*
 .nav a:active {
