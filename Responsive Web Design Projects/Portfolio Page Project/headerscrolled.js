@@ -1,4 +1,5 @@
-/*var header = document.querySelector('header')
+/* first try
+var header = document.querySelector('header')
 
 window.onscroll = function() {
 
@@ -10,6 +11,7 @@ window.onscroll = function() {
 }
 */
 
+/* second try
 const callback = (entries, observer) => {
   const entry = entries[0];
   const { intersectionRatio, isIntersecting } = entry;
@@ -27,3 +29,35 @@ const io = new IntersectionObserver(callback, options);
 
 const target = document.querySelector('.home-section');
 io.observe(target);
+*/
+
+//third try
+/*
+$(document).ready(function() {
+  $(window).scroll(function() {
+    if($(this).scrollTop() > height) {
+      $('.header').addClass('scrolled');
+    } else {
+      $('.header').removeClass('scrolled');
+    }
+  });
+});
+*/
+
+// fourth try
+
+function checkScroll() {
+  var startY = $('.header').height() * 2;
+
+  if($(window).scrollTop() > startY) {
+    $('.header').addClass("scrolled");
+  } else {
+    $('.header').removeClass("scrolled");
+  }
+}
+
+if($('.header').length > 0) {
+  $(window).on("scroll load resize", function() {
+    checkScroll();
+  });
+}
