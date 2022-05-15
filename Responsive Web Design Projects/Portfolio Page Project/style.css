@@ -93,11 +93,6 @@ a {
   color: var(--main-white);
 }
 
-/*img {
-  display: block;
-  width: 100%;
-}*/
-
 /* nav bar at the top*/
 
 header {
@@ -110,12 +105,16 @@ header {
   height: 75px;
   background: var(--main-black);
 }
-
+/*
+header-scrolled {
+  opacity: 0.5;
+}
+*/
 .logo {
   display: flex;
   align-items: center;
   max-width: 100%;
-  width: 75px;
+  width: auto;
   object-fit: contain;
 }
 
@@ -136,7 +135,7 @@ header {
   align-items: center;
   max-width: 100%;
   width: 75px;
-
+  border-radius: 50%;
 }
 
 .logo-name {
