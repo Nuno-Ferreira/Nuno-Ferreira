@@ -107,11 +107,13 @@ header {
   top: 0;
   left: 0;
   width: 100%;
+  height: 75px;
   background: var(--main-black);
 }
 
 .logo {
-  display: block;
+  display: flex;
+  align-items: center;
   max-width: 100%;
   width: 75px;
   object-fit: contain;
@@ -130,10 +132,16 @@ header {
 }
 
 .logo-image {
-  display: block;
+  display: flex;
+  align-items: center;
   max-width: 100%;
   width: 75px;
 
+}
+
+.logo-name {
+  width: inherit;
+  font-size: 2.5rem;
 }
 
 /*
