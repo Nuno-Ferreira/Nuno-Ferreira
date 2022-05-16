@@ -146,7 +146,6 @@ header-scrolled {
 /*
 .nav a:active {
   background-color: #2196F3;
-  color: white;
 }
 */
 @media (max-width: 28.75em) {
@@ -161,12 +160,15 @@ header-scrolled {
 
 .nav-list a {
   display: block;
-  font-size: 2.2rem;
+  font-size: 2rem;
   padding: 2rem;
+  text-transform: uppercase;
 }
 
 .nav-list a:hover {
-  background: var(--main-blue);
+  background: var(--main-gray);
+  border-radius: 75%;
+  transition: all 0.3s ease-in-out;
 }
 
 .nav input[type=text] {
@@ -177,6 +179,8 @@ header-scrolled {
   margin-right: 16px;
   font-size: 17px;
 }
+
+
 
 /* about section */
 .home-section {
