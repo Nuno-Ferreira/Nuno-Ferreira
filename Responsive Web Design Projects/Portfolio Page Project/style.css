@@ -168,7 +168,7 @@ header-scrolled {
 .nav-list a:hover {
   background: var(--main-gray);
   border-radius: 75%;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.3s linear;
 }
 
 .nav input[type=text] {
@@ -180,7 +180,15 @@ header-scrolled {
   font-size: 17px;
 }
 
+.nav search-bar {
+  float: right;
+}
 
+.search-container button {
+  float: right;
+  background: ;
+  cursor: pointer;
+}
 
 /* about section */
 .home-section {
