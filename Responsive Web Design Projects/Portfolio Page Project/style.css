@@ -121,13 +121,13 @@ header-scrolled {
 .nav {
   display: flex;
   align-items: center;
-
 }
 
 .nav-list {
   display: flex;
+  justify-content: space-around;
   align-items: center;
-  margin-right: 2rem;
+  margin-right: 0.5rem;
 }
 
 .logo-image {
@@ -167,28 +167,41 @@ header-scrolled {
 
 .nav-list a:hover {
   background: var(--main-gray);
-  border-radius: 75%;
+  border-radius: 50px;
   transition: all 0.3s linear;
 }
 
-.nav input[type=text] {
-  float: right;
-  padding: 6px;
-  border: none;
-  margin-top: 8px;
-  margin-right: 16px;
-  font-size: 17px;
+.search-bar {
+  display: flex;
+  font-size: 20px;
 }
 
-.nav search-bar {
-  float: right;
+.search-bar-input {
+  border: 0.2em solid #eee;
+  border-radius: 0.5em 0 0 0.5em;
+  padding: 0.2em 0.5em;
+  outline: 0;
+  font-size: inherit;
 }
 
-.search-container button {
-  float: right;
-  background: ;
+.search-bar-input:hover,
+.search-bar-input:focus {
+  border-color: #ccc;
+}
+.search-bar-button {
+  border: 0.2em solid #eee;
+  border-radius: 0 0.5em 0.5em 0;
+  border-left: 0.5;
+  padding: 0 0.5em;
   cursor: pointer;
+  font-size: inherit;
 }
+
+.search-bar-button:hover {
+  border-color: #ccc;
+  background: #ccc;
+}
+
 
 /* about section */
 .home-section {
@@ -282,7 +295,7 @@ header-scrolled {
 .btn-show-all {
   font-size: 2rem;
   background: var(--main-gray);
-  transition: background 0.3s ease-out;
+  transition: 0.3s ease-out;
 }
 
 .btn-show-all:hover > i {
