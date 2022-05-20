@@ -221,6 +221,7 @@ header-scrolled {
   color: var(--main-white);
 }
 
+
 /* projects section*/
 .projects-section {
   text-align: center;
@@ -228,10 +229,19 @@ header-scrolled {
   background: var(--main-black);
 }
 
+.projects-section ul {
+    list-style: initial;
+}
+
 .projects-section-header {
   max-width: 640px;
   margin: 0 auto 6rem auto;
   border-bottom: 0.2rem solid var(--main-white);
+}
+
+.vertical-line {
+  border-left: 6px solid white;
+  height: 500px;
 }
 
 @media (max-width: 28.75em) {
@@ -354,16 +364,7 @@ header-scrolled {
   transform: translateY(8px);
 }
 
-/*feedback*/
 
-.feedback-section {
-  background: var(--main-black);
-
-}
-
-.feedback-section > p {
-
-}
 /*footer*/
 footer {
   font-weight: 300;
