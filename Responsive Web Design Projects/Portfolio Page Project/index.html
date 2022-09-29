@@ -1,38 +1,43 @@
 <!DOCTYPE html>
 <head>
   <title>Portfolio Page</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+    crossorigin="anonymous"
+  />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+  <script src="headerscrolled.js"></script>
 </head>
-<link rel="stylesheet" href="style.css"/>
-<link
-  rel="stylesheet"
-  href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
-  integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
-  crossorigin="anonymous"
-/>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
-<script type="text/javascript" src="headerscrolled.js"></script>
 
 <!-- Start nav bar -->
-<header>
+<header class="header">
   <div class="logo">
     <img src="CV photo.png" alt="Portrait" class="logo-image">
     <h2 class="logo-name">Nuno Ferreira</h2>
   </div>
   <nav id="navbar" class="nav">
+    <div class="menu-toggle" id="mobile-menu">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </div>
     <ul class="nav-list">
       <li>
-        <a href="#home-section">Home</a>
+        <a href="#home-section" class="nav-links">Home</a>
       </li>
       <li>
-        <a href="#projects-section">Projects</a>
+        <a href="#projects-section" class="nav-links">Projects</a>
       </li>
       <li>
-        <a href="#contact-section">Contact me</a>
+        <a href="#contact-section" class="nav-links">Contact me</a>
       </li>
-      <div class="search-bar">
+     <!-- <div class="search-bar">
         <input type="text" placeholder="Search..." class="search-bar-input">
         <button type="submit" class="search-bar-button"><i class="fa fa-search"></i></button>
-      </div>
+      </div> -->
     </ul>
   </nav>
 </header>
