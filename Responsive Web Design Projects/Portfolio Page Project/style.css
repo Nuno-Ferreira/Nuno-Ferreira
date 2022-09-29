@@ -156,6 +156,12 @@ header-scrolled {
   .nav-list {
     margin: 0 1rem;
   }
+
+  .nav {
+    display: grid;
+    grid-template-columns: auto;
+    
+  }
 }
 
 .nav-list a {
