@@ -22,8 +22,6 @@ def main():
 
 main()
 
-#need to add error handling for invalid input of currencies and amounts
-#need to add a function to tell me how many requests I have until the renewal period
 
 #response------------------------------------------------
 """
