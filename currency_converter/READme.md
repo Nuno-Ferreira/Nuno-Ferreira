@@ -1,5 +1,5 @@
-#### Currency converter
-
+Currency converter
+==================
 With this currency converter you will be able to convert any currency.
 
 Some features that I want to implement:
