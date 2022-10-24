@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Briefcase-Version: 0.3.10
+Name: currencyconverter
+Formal-Name: Currency Converter
+App-ID: com.example.currencyconverter
+Version: 0.0.1
+Home-page: https://example.com/currencyconverter
+Author: Nuno Ferreira
+Author-email: nunomiguelferreira5@gmail.com
+Summary: My first application that converts any currency in seconds

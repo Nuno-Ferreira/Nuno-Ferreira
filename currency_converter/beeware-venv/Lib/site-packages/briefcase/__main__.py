@@ -1,0 +1,48 @@
+import sys
+from contextlib import suppress
+
+from briefcase.cmdline import parse_cmdline
+from briefcase.console import Console, Log
+from briefcase.exceptions import BriefcaseError, HelpText
+
+
+def main():
+    result = 0
+    command = None
+    logger = Log()
+    console = Console()
+    try:
+        Command, extra_cmdline = parse_cmdline(sys.argv[1:])
+        command = Command(logger=logger, console=console)
+        options = command.parse_options(extra=extra_cmdline)
+        command.check_obsolete_data_dir()
+        command.parse_config("pyproject.toml")
+        command(**options)
+    except HelpText as e:
+        logger.info()
+        logger.info(str(e))
+        result = e.error_code
+    except BriefcaseError as e:
+        logger.error()
+        logger.error(str(e))
+        result = e.error_code
+        logger.capture_stacktrace()
+    except Exception:
+        logger.capture_stacktrace()
+        raise
+    except KeyboardInterrupt:
+        logger.warning()
+        logger.warning("Aborted by user.")
+        logger.warning()
+        result = -42
+        if logger.save_log:
+            logger.capture_stacktrace()
+    finally:
+        with suppress(KeyboardInterrupt):
+            logger.save_log_to_file(command)
+
+    sys.exit(result)
+
+
+if __name__ == "__main__":
+    main()
