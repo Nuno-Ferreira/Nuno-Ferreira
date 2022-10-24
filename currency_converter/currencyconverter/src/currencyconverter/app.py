@@ -6,7 +6,21 @@ from toga.style import Pack
 from toga.style.pack import COLUMN, ROW
 import currency_converter
 
+
+class ButtonClick(implements=android.view.View[OnClickListener]):
+    def __init__(self, callback, *args, **kwargs):
+        self.callback = callback
+        self.args = args
+        self.kwargs = kwargs
+
+    def onClick(self, view: android.view.View) -> void:
+        self.callback(*self.args, **self.kwargs)
+
+
 class CurrencyConverter(toga.App):
+    def __init__(self):
+        self.buttons = []
+        
 
     def startup(self):
         """
@@ -46,7 +60,6 @@ class CurrencyConverter(toga.App):
 
     def say_hello(self, widget):
         print("Hello,", self.name_input.value)
-
 
 
 
