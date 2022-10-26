@@ -4,7 +4,8 @@ My first application that converts any currency in seconds
 from lib2to3.pytree import convert
 import toga
 from toga.style.pack import COLUMN, ROW, LEFT, RIGHT, Pack
-from currency_converter import currency_converter
+from currency_converter import currency_to_convert_to, currency_to_convert_from, amount_to_convert
+
 #import android
 #from android.util import Log
 #from android.widget import LinearLayout
@@ -29,8 +30,8 @@ def build(app):
     c2_label = toga.Label('EUR', style=Pack(text_align=RIGHT))
     join_label = toga.Label('converts to', style=Pack(text_align=RIGHT))
 
-   # def convert(widget): #make this connnect to the currencyconverter script
-
+    def convert(widget): #make this connnect to the currencyconverter script
+        
 
 
     button = toga.Button('Convert', on_press=convert)
