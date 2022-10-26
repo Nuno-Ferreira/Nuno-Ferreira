@@ -1,19 +1,70 @@
 """
 My first application that converts any currency in seconds
 """
+from lib2to3.pytree import convert
 import toga
-from toga.style import Pack
-from toga.style.pack import COLUMN, ROW
-import android
-from android.util import Log
-from android.widget import LinearLayout
-from android.widget import Button
-from android.widget import TextView
-from android.view import Gravity
-import android.view
+from toga.style.pack import COLUMN, ROW, LEFT, RIGHT, Pack
 from currency_converter import currency_converter
+#import android
+#from android.util import Log
+#from android.widget import LinearLayout
+#from android.widget import Button
+#from android.widget import TextView
+#from android.view import Gravity
+#import android.view
 
 
+
+#lets start again but with toga
+
+def build(app):
+    c1_box = toga.Box()
+    c2_box = toga.Box()
+    box = toga.Box()
+
+    c1_input = toga.TextInput(readonly=True)
+    c2_input = toga.TextInput()
+
+    c1_label = toga.Label('GBP', style=Pack(text_align=RIGHT))
+    c2_label = toga.Label('EUR', style=Pack(text_align=RIGHT))
+    join_label = toga.Label('converts to', style=Pack(text_align=RIGHT))
+
+   # def convert(widget): #make this connnect to the currencyconverter script
+
+
+
+    button = toga.Button('Convert', on_press=convert)
+
+    c2_box.add(c2_input)
+    c2_box.add(c2_label)
+
+    c1_box.add(join_label)
+    c1_box.add(c1_input)
+    c1_box.add(c1_label)
+
+    box.add(c2_box)
+    box.add(c1_box)
+    box.add(button)
+
+    #this where the styling happens, it looks similar to CSS
+    box.style.update(direction=COLUMN, padding_top=10)
+    c2_box.style.update(direction=ROW, padding=5)
+    c1_box.style.update(direction=ROW, padding=5)
+
+    c1_input.style.update(flex=1)
+    c2_input.style.update(flex=1, padding_left=160)
+    c1_label.style.update(width=100, padding_left=10)
+    c2_label.style.update(width=100, padding_left=10)
+    join_label.style.update(width=150, padding_right=10)
+
+    button.style.update(padding=15, flex=1)
+
+    return box
+
+
+
+#this was a mistake // this is if I was trying ot build with VOC (another transpiler)
+"""
 class ButtonClick(implements=android.view.View[OnClickListener]):
     def __init__(self, callback, *args, **kwargs):
         self.callback = callback
@@ -48,9 +99,10 @@ class CurrencyConverter:
         self.runScript()
 
     def runScript(self):
-        
 
-"""
+
+#might need this in the future to build the toga app
+
 class CurrencyConverter(toga.App):
     def __init__(self):
         self.buttons = []
