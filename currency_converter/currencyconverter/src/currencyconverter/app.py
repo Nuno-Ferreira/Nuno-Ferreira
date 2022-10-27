@@ -21,20 +21,26 @@ from currency_converter import currency_to_convert_to, currency_to_convert_from,
 def build(app):
     c1_box = toga.Box()
     c2_box = toga.Box()
+    m_box = toga.Box() #need to add a section for the amount that I want to convert
+    mc_box = toga.Box() #for the amount converted
     box = toga.Box()
 
-    c1_input = toga.TextInput(readonly=True)
+    c1_input = toga.TextInput()
     c2_input = toga.TextInput()
+    #I need to create 3 inputs for the currencies and the amount
+    m_input = toga.TextInput()
+    mc_box = toga.TextInput(readonly=True)
 
-    c1_label = toga.Label('GBP', style=Pack(text_align=RIGHT))
-    c2_label = toga.Label('EUR', style=Pack(text_align=RIGHT))
+    c1_label = toga.Label('GBP', style=Pack(text_align=LEFT))
+    c2_label = toga.Label('EUR', style=Pack(text_align=LEFT))
     join_label = toga.Label('converts to', style=Pack(text_align=RIGHT))
 
     def convert(widget): #make this connnect to the currencyconverter script
-        
+        c1_input
 
 
     button = toga.Button('Convert', on_press=convert)
+# need to stylize the other 2 boxes
 
     c2_box.add(c2_input)
     c2_box.add(c2_label)
@@ -150,8 +156,8 @@ class CurrencyConverter(toga.App):
 """
 
 
-def main():
-    return CurrencyConverter()
+#def main():
+ #   return CurrencyConverter()
 
 
 
