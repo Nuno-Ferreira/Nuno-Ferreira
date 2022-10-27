@@ -58,7 +58,7 @@ I will be posting projects that I am currently working on, either university one
 ## Reach me at
 
  - <a href="https://www.linkedin.com/in/nuno-ferreira-2950741b8/" target="_blank">LinkedIn</a>
- - <a href="https://nuno-ferreira.github.io/" target"_blank">Website</a>
+ - <a href="https://nuno-ferreira.github.io/" target="_blank">Website</a>
 
 
 
