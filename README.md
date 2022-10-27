@@ -1,8 +1,6 @@
-### Hi there 👋
+# Hi there 👋
 
 <!--
-**Nuno-Ferreira/Nuno-Ferreira** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
 Here are some ideas to get you started:
 
 - 🔭 I’m currently working on ...
@@ -14,9 +12,33 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
 This will be where I post projects that I am currently working on, either university ones or subjects that I am learning on my own time.
 Some of subjects that I may include here are: web development, game development, python, ethical hacking and just programming in general.
 
-Just started learning how to work with Unity and I will be indulging in my first learning project.
+
+### Tech stack
+
+ - Python
+ - HTML5
+ - CSS3
+ - JavaScript
+ 
+ 
+### Tools
+
+ - VSCode
+ - Git 
+
+
+### Currently Learning
+
+ - Python
+
+## Future Projects
+
+- [ ] Blog
+- [ ] Highlighting text glasses
+- [ ] 
 
 Thank you very much and hope you enjoy!
