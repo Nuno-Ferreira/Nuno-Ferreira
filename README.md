@@ -22,12 +22,15 @@ I will be posting projects that I am currently working on, either university one
 ### Currently Learning
 
  - **Python**, I will be using a lot of Python for university assignments which will be covering the topics of Computer Vision and Machine Learning.
+ - **Machine Learning**
+ - **SQL**
  
  
 ### Currently working on
 
  - [ ] Currency converter
  - [ ] Recipe bot
+ - [ ] Recognise UNO cards
 
 
 ### Looking to collaborate on
