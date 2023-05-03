@@ -52,11 +52,6 @@ I will be posting projects that I am currently working on, either university one
  - Git 
 
 
-## Future Projects
-
-- [ ] Blog
-- [ ] Highlighting text glasses
-
 <!-- add images-->
 ## Reach me at
 
