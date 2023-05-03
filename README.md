@@ -15,8 +15,7 @@ Here are some ideas to get you started:
 
 ## I'm Nuno Ferreira
 
-I am a 3rd year Robotics student that is trying to break into tech as a Software Developer. For my final year project I have chosen to do is building glasses that highlight the text that you read. Soon I will create a repo for me to start working on that project and hopefully succeed.
-I will be posting projects that I am currently working on, either university ones or subjects that I am learning on my own time.
+I am a 3rd year Robotics student that is trying to break into tech as a Software Developer. I will be posting projects that I am currently working on, either university ones or subjects that I am learning on my own time.
 
 
 ### Currently Learning
