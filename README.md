@@ -15,40 +15,51 @@ Here are some ideas to get you started:
 
 ## I'm Nuno Ferreira
 
-I am a 3rd year Robotics student that is trying to break into tech as a Software Developer. I will be posting projects that I am currently working on, either university ones or subjects that I am learning on my own time.
+I am a Software Engineer with a degree in Robotics and I'm looking to specialise in **Python**. I will be creating personal projects, improving my current website hosted on GitHub and creating projects that match my interests. I'm looking to learn about C++ more in-depth and also how I can integrate C/C++ into Python to increase its performance, especially for computing heavy tasks.
 
 
 ### Currently Learning
 
- - **Python**, I will be using a lot of Python for university assignments which will be covering the topics of Computer Vision and Machine Learning.
- - **Machine Learning**
+ - **Python**
+ - **Django**
+ - **React**
  - **SQL**
  
  
 ### Currently working on
 
- - [ ] Currency converter
- - [ ] Recipe bot
- - [ ] Recognise UNO cards
+ - [ ] File Renaming App
+ - [ ] Project involving using the Formula 1 API
 
 
 ### Looking to collaborate on
 
-- Mainly **Python** but I am open to learning new languages and helping and collaborating with anyone.
+- Mainly **Python** and **JavaScript** but I am open to learning new languages, helping and collaborating with anyone.
 
 
 ### Tech stack
 
  - Python
- - HTML5
- - CSS3
  - JavaScript
- 
+ - React
+ - Django REST framework
+ - Pytest
+ - Pandas
+ - Matplotlib
+ - Celery
+ - AWS
+ - HTML
+ - CSS
+ - C++
+
  
 ### Tools
 
  - VSCode
- - Git 
+ - Git
+ - GitHub
+ - Linux (WSL)
+
 
 
 <!-- add images-->
