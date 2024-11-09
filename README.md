@@ -21,6 +21,7 @@ I am a Software Engineer with a degree in Robotics and I'm looking to specialise
 ### Currently Learning
 
  - **Python**
+ - **JavaScript**
  - **Django**
  - **React**
  - **SQL**
